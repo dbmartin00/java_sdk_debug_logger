@@ -4,7 +4,7 @@
 
 Save the Java API key from the Syntax menu (...) of your flag.
 
-- Clone the repository.
+- Clone this repository.
 
 - Edit the environment to supply your own API key
 
@@ -18,10 +18,11 @@ mvn clean install
 
 - Run
 
+```bash
 java \
   -Dorg.slf4j.simpleLogger.defaultLogLevel=debug \
   -jar target/harness-flag-test-1.0.0.jar
-
+```
 
 ** Expected behavior
 
